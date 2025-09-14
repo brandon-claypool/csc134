@@ -1,21 +1,20 @@
-/*
 CSC 134
-M1LAB for the online sections
-claypoob
+M1LAB
+Claypool
 9/13/25
-Program will advertise products for Jane Smith's
-apple business.
-*/
 
-//magic words
 #include <iostream>
 using namespace std;
 
 int main() {
-    // Let's say hello
-    string name = "Jane Smith";
+    // This program will simulate an apple orchard
+    // The owner's name
+    string name = "Brandon Claypool";
+    // number of apples owned
     int apples = 100;
+    // price per apple
     double pricePerApple = 0.25;
+    
     
     cout << "Welcome to " << name;
     cout << "'s apple farm" << endl;
@@ -24,7 +23,7 @@ int main() {
     
     cout << "Price $" << pricePerApple << " each." << endl;
 
-    // now calculate total price
+    //calculate the total price of the apples
     double totalPrice = (double) apples * pricePerApple;
     cout << "Total price is: $" <<totalPrice<< endl;
     
