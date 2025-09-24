@@ -23,7 +23,9 @@ int main() {
 
     // Greet user and take the order
     cout << "Welcome to our CSC 134 Restaurant!" << endl;
-    cout << "You ordered one " << item << "." << endl;
+    cout << endl;
+    cout << "You ordered one" << item << "." << endl;
+    cout << endl;
 
     // Calculate the meal price
     // Calculate the sales tax and the total price
@@ -32,7 +34,19 @@ int main() {
 
     // Print the receipt
     cout << setprecision(2) << fixed;
-    cout << total << endl;
+    
+    cout << "-----------------------------" << endl;
+    cout << item << "\t\t$" << item_price << endl;
+    cout << endl;
+    cout << "Tax" << "\t\t\t$" << tax_amount << endl;
+    cout << "-----------------------------" << endl;
+    cout << "Total" << "\t\t\t$" << total << endl;
+    cout << endl;
+    cout << endl;
+    cout << "Thank you for dining with us!" << endl;
+    cout << endl;
+    cout << endl;
+
     
     return 0; //no errors
 }
