@@ -14,6 +14,7 @@ int main() {
     // should also handle sales tax (8%)
 
     // Declare our variables
+    const string restaurant_name = "Brandon's Burgers";
     string item = "🍔 Cheeseburger";
     double item_price = 5.99;
     double tax_percent = 0.08; // 8% is 8/100
@@ -22,9 +23,10 @@ int main() {
 
 
     // Greet user and take the order
-    cout << "Welcome to our CSC 134 Restaurant!" << endl;
+    cout << "Welcome to " << restaurant_name << "!\n";
+    //cout << "Welcome to our CSC 134 Restaurant!" << endl;
     cout << endl;
-    cout << "You ordered one" << item << "." << endl;
+    cout << "You ordered one " << item << "." << endl;
     cout << endl;
 
     // Calculate the meal price
