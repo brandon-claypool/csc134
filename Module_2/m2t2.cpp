@@ -15,7 +15,7 @@ int main() {
 
     // Declare our variables
     string item = "🍔 Cheeseburger";
-    double item_price = 4.99;
+    double item_price = 5.99;
     double tax_percent = 0.08; // 8% is 8/100
     double tax_amount;         // tax in $
     double total;              // price + tax
