@@ -7,6 +7,7 @@ claypoolb
 
 #include <iostream>
 #include <iomanip>  // for decimal places
+#include <string>
 using namespace std;
 
 int main() {
