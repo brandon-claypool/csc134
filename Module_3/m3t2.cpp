@@ -6,8 +6,8 @@ Program to simulate craps gambling
 */
 
 #include <iostream>
-#include <cmath>    // (not used, but kept to match the example)
-#include <ctime>    // time(0) for seeding
+#include <cmath>    
+#include <ctime>    
 using namespace std;
 
 int main() {
