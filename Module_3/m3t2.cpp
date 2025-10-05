@@ -81,7 +81,5 @@ int main() {
         cout << "\nPlay another round? (y/n): ";
         cin >> again;
     }
-
-    cout << "\nEXIT" << endl;
     return 0;
 }
