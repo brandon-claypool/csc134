@@ -11,6 +11,7 @@ using namespace std;
 
 int main()
 {
+        cout << "Question 2";
         //Constants for cost and amount charged
         const double COST_PER_CUBIC_FOOT = 0.30;  //updated from 0.23 cost due to economic fluctuations
         const double CHARGE_PER_CUBIC_FOOT = 0.52; //updated from 0.50 charge due to economic fluctuations 

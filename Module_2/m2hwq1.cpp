@@ -12,6 +12,7 @@ Program to simulate banking transactions
 using namespace std;
 
 int main() {
+    cout << "Question 1";
     cout << "Welcome to FTCC Student Bank!\n";
 
     // Ask user for their name

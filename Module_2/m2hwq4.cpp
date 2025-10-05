@@ -10,6 +10,8 @@ using namespace std;
 
 int main() {
 
+    cout << "Question 4";
+
     // First let's establish the basic strings we will use in combinations
     string letsGo;
     letsGo   = "Let's go ";

@@ -9,14 +9,17 @@ Pizza Party Calculator
 using namespace std;
 
 int main() {
+
+    cout << "Question 3";
+
     cout << "----- Pizza Party Calculator -----\n";
     cout << "Let's figure out how many pizzas are\n";
     cout << "needed for each person to have 3 slices.\n";
 
     int pizzas = 0, slices_per_pizza = 0, visitors = 0;
-    cout << "How many pizzas? ";
+    cout << "How many pizzas are you planning to buy? ";
     cin >> pizzas;
-    cout << "How many slices per pizza? ";
+    cout << "How many slices are there per pizza? ";
     cin >> slices_per_pizza;
     cout << "How many visitors? ";
     cin >> visitors;
