@@ -31,7 +31,7 @@ int main() {
         cin >> second;
 
         if (second == 1) {
-            cout << "\n🎉 GRYFFINDOR!\n";
+            cout << "\n🦁 GRYFFINDOR!\n";
         } else if (second == 2) {
             cout << "\n🦅 RAVENCLAW!\n";
         } else {
