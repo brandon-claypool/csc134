@@ -26,7 +26,17 @@ int main() {
     cout << "That's all!" << endl;
 
     // program 5-6
+    const int MIN_NUMBER = 1;
+    const int MAX_NUMBER = 10;
 
+    int num = MIN_NUMBER;
+    // print a table header
+    cout << "Number\tNumber Squared" << endl;
+
+    while (num <= MAX_NUMBER) {
+        cout << num << "\t" << num * num << endl;
+        num++;
+    }
  
     return 0; // done
 }
