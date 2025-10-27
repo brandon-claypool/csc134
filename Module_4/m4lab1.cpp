@@ -1,6 +1,6 @@
 /*
 CSC 134
-M4LAB1 - Asterisk Block
+M4LAB1 - Asterisk Block - Nested Loops
 claypoolb
 10/26/2025
 
