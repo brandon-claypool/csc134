@@ -1,39 +1,75 @@
-// M5LAB2
-// Header goes here
+// M5LAB2 - Complete a Program
+// claypoolb
+// 11/14/2025
+// This program gets the length and width of a rectangle,
+// calculates the area using functions, and displays results.
 
 #include <iostream>
 using namespace std;
 
-// Declare (Write the prototypes for)
-// the getLength,
-// getWidth, getArea, and displayData
-// functions here.
+// FUNCTION PROTOTYPES
+double getLength();
+double getWidth();
+double getArea(double length, double width);
+void displayData(double length, double width, double area);
 
 int main()
 {
-	// This program calculates the area of a rectangle.
-	// TODO: fix any syntax errors
-	
-   double length,    // The rectangle's length
-          width,     // The rectangle's width
-          area;      // The rectangle's area
+    // This program calculates the area of a rectangle.
+
+    double length;   // The rectangle's length
+    double width;    // The rectangle's width
+    double area;     // The rectangle's area
           
-   // Get the rectangle's length.
-   length = getLength();
+    // Get the rectangle's length.
+    length = getLength();
    
-   // Get the rectangle's width.
-   width = getWidth()
+    // Get the rectangle's width.
+    width = getWidth();
    
-   // Get the rectangle's area.
-   are = getArea();
+    // Get the rectangle's area.
+    area = getArea(length, width);
    
-   // Display the rectangle's data.
-   displayData(length, width, area);
+    // Display the rectangle's data.
+    displayData(length, width, area);
           
-   return 0;
+    return 0;
 }
 
 //***************************************************
-// TODO: write the getLength, getWidth, getArea,    *
-// and displayData functions below.                 *
+// getLength - Get length from user
 //***************************************************
+double getLength() {
+    double length;
+    cout << "Enter the rectangle's length: ";
+    cin >> length;
+    return length;
+}
+
+//***************************************************
+// getWidth - Get width from user
+//***************************************************
+double getWidth() {
+    double width;
+    cout << "Enter the rectangle's width: ";
+    cin >> width;
+    return width;
+}
+
+//***************************************************
+// getArea - Calculate area
+//***************************************************
+double getArea(double length, double width) {
+    return length * width;
+}
+
+//***************************************************
+// displayData - Show formatted output
+//***************************************************
+void displayData(double length, double width, double area) {
+    cout << "\nRectangle Data\n";
+    cout << "--------------\n";
+    cout << "Length: " << length << endl;
+    cout << "Width : " << width << endl;
+    cout << "Area  : " << area << endl;
+}
