@@ -14,12 +14,6 @@
 #include <string>
 using namespace std;
 
-// Function prototypes
-void exercise1_HealthRegen();
-void exercise2_LevelStats();
-void exercise3_Inventory();
-void displayMenu();
-
 int main() {
     int maxStamina = 100;
     int stamina = 30;   //this is the starting level of stamina
