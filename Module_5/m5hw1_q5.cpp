@@ -1,3 +1,8 @@
+// M5HW1 - Question 5
+// claypoolb
+// 11/29/2025
+// This program calculates the distance a vehicle travels given a speed and time traveled
+
 #include <iostream>
 using namespace std;
 

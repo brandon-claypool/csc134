@@ -1,3 +1,10 @@
+// M5HW1 - Question 6
+// claypoolb
+// 11/29/2025
+// This program combines all of the previous questions from this assignment into a menu based program
+// that allows the user to decide which function/program to run. It is a loop that allows continuous
+// selection of alternate programs until the user decides to quit
+
 #include <iostream>
 #include <iomanip>
 #include <string>

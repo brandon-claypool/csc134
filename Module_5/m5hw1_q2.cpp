@@ -1,3 +1,9 @@
+// M5HW1 - Question 2
+// claypoolb
+// 11/29/2025
+// This program calculates the volume of a three dimensional hypperrectangle (or a block)
+
+
 #include <iostream>
 using namespace std;
 

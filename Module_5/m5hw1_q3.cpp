@@ -1,3 +1,8 @@
+// M5HW1 - Question 3
+// claypoolb
+// 11/29/2025
+// This program converts numerals 1-10 to Roman Numerals for the user
+
 #include <iostream>
 using namespace std;
 

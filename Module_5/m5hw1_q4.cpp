@@ -1,3 +1,8 @@
+// M5HW1 - Question 4
+// claypoolb
+// 11/29/2025
+// This program gives the user the option to calculate the area of a circl, a rectangle, or a triangle
+
 #include <iostream>
 using namespace std;
 

@@ -1,3 +1,9 @@
+// M5HW1 - Question 1
+// claypoolb
+// 11/29/2025
+// This program calculates the average rainfall for three months
+
+
 #include <iostream>
 #include <iomanip>
 #include <string>
